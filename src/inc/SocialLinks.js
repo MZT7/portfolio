@@ -43,7 +43,7 @@ const SocialLinks = () => {
           <ImWhatsapp size={30} />
         </>
       ),
-      href: "https://wa.link/i33jpf",
+      href: "https://wa.me/2349090202853?text=Hello%2C%0A%20how%20can%20I%20be%20of%20service%3F",
     },
     {
       child: (
