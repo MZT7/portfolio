@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <section className="h-screen pt-20 my-auto lg:pt-0" name="Home">
+    <section className="h-screen py-8 pt-20 lg:pt-0" name="Home">
       <div className="container flex flex-col items-center justify-center h-full px-4 py-5 mx-auto md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h1 className="text-3xl font-bold md:text-6xl">

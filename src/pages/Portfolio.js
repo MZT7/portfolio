@@ -42,7 +42,7 @@ const Portfolio = () => {
         </h1>
         <p className="py-8 text-lg font-medium">Checkout my projects</p>
 
-        <div className="grid grid-cols-1 gap-8 px-12 py-4 sm:grid-cols-2 lg:grid-cols-3 sm:px-0">
+        <div className="grid grid-cols-1 gap-8 px-0 py-4 sm:px-12 sm:grid-cols-2 lg:grid-cols-3">
           {portfolio.map(({ src, href }, index) => {
             return (
               <div
@@ -57,7 +57,6 @@ const Portfolio = () => {
                   />
                 </div>
                 <div className="flex items-center justify-center">
-                  ,
                   <a
                     href={href}
                     target="_blank"

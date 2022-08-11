@@ -16,7 +16,7 @@ const Experience = () => {
       icon: (
         <>
           <FaHtml5
-            size={100}
+            size={"100"}
             className="mx-auto text-orange-600 duration-300 stroke-2 hover:scale-110 "
           />
         </>
@@ -28,7 +28,7 @@ const Experience = () => {
       icon: (
         <>
           <IoLogoCss3
-            size={100}
+            size={"100"}
             className="mx-auto text-blue-500 duration-300 stroke-2 hover:scale-110"
           />
         </>
@@ -40,7 +40,7 @@ const Experience = () => {
       icon: (
         <>
           <FaJs
-            size={100}
+            size={"100"}
             className="mx-auto text-yellow-500 duration-300 stroke-2 hover:scale-110"
           />
         </>
@@ -52,7 +52,7 @@ const Experience = () => {
       icon: (
         <>
           <FaPhp
-            size={100}
+            size={"100"}
             className="mx-auto duration-300 stroke-2 text-sky-800 hover:scale-110 "
           />
         </>
@@ -64,7 +64,7 @@ const Experience = () => {
       icon: (
         <>
           <FaReact
-            size={100}
+            size={"100"}
             className="mx-auto duration-300 stroke-2 text-cyan-600 hover:scale-110 "
           />
         </>
@@ -76,7 +76,7 @@ const Experience = () => {
       icon: (
         <>
           <FaLaravel
-            size={100}
+            size={"100"}
             className="mx-auto text-red-500 duration-300 stroke-2 hover:scale-110"
           />
         </>
@@ -88,7 +88,7 @@ const Experience = () => {
       icon: (
         <>
           <FaBootstrap
-            size={100}
+            size={"100"}
             className="mx-auto duration-300 stroke-2 text-violet-700 hover:scale-110"
           />
         </>
@@ -100,7 +100,7 @@ const Experience = () => {
       icon: (
         <>
           <SiTailwindcss
-            size={100}
+            size={"100"}
             className="mx-auto duration-300 stroke-2 text-sky-500 hover:scale-110"
           />
         </>
@@ -112,7 +112,7 @@ const Experience = () => {
       icon: (
         <>
           <SiAlpinedotjs
-            size={100}
+            size={"100"}
             className="mx-auto duration-300 stroke-2 text-slate-800 tex hover:scale-110"
           />
         </>
@@ -132,7 +132,7 @@ const Experience = () => {
           These are the technologies I currently work with
         </p>
 
-        <div className="grid w-full grid-cols-2 gap-8 px-12 py-4 text-center sm:grid-cols-3 sm:px-0">
+        <div className="grid w-full grid-cols-2 gap-4 px-0 py-4 text-center sm:px-12 sm:gap-8 sm:grid-cols-3">
           {experience.map(({ style, title, icon }, index) => {
             return (
               <div
