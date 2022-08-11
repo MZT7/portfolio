@@ -128,7 +128,9 @@ const Experience = () => {
         <h1 className="inline text-4xl font-bold underline underline-offset-8 decoration-4 decoration-gray-50">
           Experience
         </h1>
-        <p className="py-8">These are the technologies i have worked with</p>
+        <p className="py-8 text-lg font-medium">
+          These are the technologies I currently work with
+        </p>
 
         <div className="grid w-full grid-cols-2 gap-8 px-12 py-4 text-center sm:grid-cols-3 sm:px-0">
           {experience.map(({ style, title, icon }, index) => {

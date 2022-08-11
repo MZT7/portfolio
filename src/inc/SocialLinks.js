@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { ImWhatsapp } from "react-icons/im";
 import Resume from "../file/Resume.pdf";
 
 const SocialLinks = () => {
@@ -19,7 +20,7 @@ const SocialLinks = () => {
     {
       child: (
         <>
-          Github
+          <span> Github </span>
           <FaGithub size={30} />
         </>
       ),
@@ -28,16 +29,26 @@ const SocialLinks = () => {
     {
       child: (
         <>
-          Mail
+          <span> Mail </span>
           <HiOutlineMail size={30} />
         </>
       ),
       href: "mailto:duziorist@gmail.com",
     },
+
     {
       child: (
         <>
-          Resume
+          <span className="pr-2"> Whatsapp </span>
+          <ImWhatsapp size={30} />
+        </>
+      ),
+      href: "https://wa.link/i33jpf",
+    },
+    {
+      child: (
+        <>
+          <span> Resume </span>
           <BsFillPersonLinesFill size={30} />
         </>
       ),
@@ -54,7 +65,7 @@ const SocialLinks = () => {
           return (
             <li
               key={index}
-              className={`duration-500 -translate-x-16 bg-gray-100 hover:translate-x-0 hover:rounded-r-md ${style}`}
+              className={`duration-500 -translate-x-20 bg-gray-100 hover:translate-x-0 hover:rounded-r-md ${style}`}
             >
               <a
                 href={href}

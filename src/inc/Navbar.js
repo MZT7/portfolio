@@ -54,7 +54,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`fixed inset-x-0 top-0 duration-700 ${navcolor}`}>
+    <nav className={`fixed inset-x-0 top-0 duration-700 z-10 ${navcolor}`}>
       <div className="container flex items-center justify-between h-20 px-4 py-5 mx-auto">
         <div className="font-mono text-4xl font-medium capitalize 2xl:ml-7">
           Mezu
@@ -74,7 +74,7 @@ const Navbar = () => {
           })}
         </ul>
         <div
-          className="z-10 cursor-pointer md:hidden "
+          className="z-20 cursor-pointer md:hidden "
           onClick={() => setNavicon(!navicon)}
         >
           {navicon ? (
@@ -85,7 +85,7 @@ const Navbar = () => {
         </div>
         {/* MobileMenu */}
         {navicon && (
-          <ul className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-screen mr-4 space-y-5 bg-gradient-to-b from-gray-400 to-gray-600 md:hidden">
+          <ul className="absolute top-0 left-0 z-10 flex flex-col items-center justify-center w-full h-screen mr-4 space-y-5 bg-gradient-to-b from-gray-400 to-gray-600 md:hidden">
             {links.map(({ id, link, os }, index) => {
               return (
                 <li

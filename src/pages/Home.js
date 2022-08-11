@@ -1,6 +1,8 @@
 import React from "react";
 import mezu from "../images/mezu.jpg";
 import { FaAngleRight } from "react-icons/fa";
+import { Link } from "react-scroll";
+
 // import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 
 const Home = () => {
@@ -17,19 +19,21 @@ const Home = () => {
             Tailwindcss, Alpinejs and Livewire.
           </p>
           <div>
-            <button className="flex items-center p-2 px-3 rounded-md cursor-pointer group bg-gradient-to-b from-cyan-200 to-blue-400">
-              Portfolio
-              <span className="ml-1 duration-500 group-hover:rotate-90">
-                <FaAngleRight />
-              </span>
-            </button>
+            <Link to="Portfolio" smooth={true} duration={500} offset={-100}>
+              <button className="flex items-center p-2 px-3 rounded-md cursor-pointer group bg-gradient-to-b from-cyan-200 to-blue-400">
+                Portfolio
+                <span className="ml-1 duration-500 group-hover:rotate-90">
+                  <FaAngleRight />
+                </span>
+              </button>
+            </Link>
           </div>
         </div>
-        <div className="w-1/2 h-2/3 pt-7 lg:pt-0">
+        <div className="w-1/2 duration-300 cursor-pointer h-2/3 pt-7 lg:pt-0 hover:translate-x-10">
           <img
             src={mezu}
             alt=""
-            className="object-cover h-full m-0 mx-auto border-4 border-gray-600 shadow-2xl rounded-2xl "
+            className="object-cover h-full m-0 mx-auto duration-300 border-4 border-gray-600 shadow-2xl rounded-2xl hover:skew-x-3"
           />
         </div>
       </div>

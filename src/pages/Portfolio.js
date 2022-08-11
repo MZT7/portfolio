@@ -1,10 +1,10 @@
 import React from "react";
-import mezu from "../images/e_mezu.png";
-import dev1 from "../images/dev1.png";
-import dev2 from "../images/dev2.png";
-import dev3 from "../images/dev3.png";
-import dev4 from "../images/dev4.png";
-import dev5 from "../images/dev1.png";
+import mezu from "../images/dev6.png";
+import dev1 from "../images/dev9.png";
+import dev2 from "../images/dev8.png";
+import dev3 from "../images/dev7.png";
+import dev4 from "../images/dev5.png";
+import dev5 from "../images/e_mezu.png";
 
 const Portfolio = () => {
   const portfolio = [
@@ -30,7 +30,7 @@ const Portfolio = () => {
     },
     {
       src: dev5,
-      href: "https://delifast.herokuapp.com/",
+      href: "https://mezuo.netlify.app/",
     },
   ];
 
@@ -40,7 +40,7 @@ const Portfolio = () => {
         <h1 className="inline text-4xl font-bold underline underline-offset-4 decoration-4 decoration-gray-50">
           Portfolio
         </h1>
-        <p className="py-8">checkout my projects</p>
+        <p className="py-8 text-lg font-medium">Checkout my projects</p>
 
         <div className="grid grid-cols-1 gap-8 px-12 py-4 sm:grid-cols-2 lg:grid-cols-3 sm:px-0">
           {portfolio.map(({ src, href }, index) => {
@@ -58,8 +58,13 @@ const Portfolio = () => {
                 </div>
                 <div className="flex items-center justify-center">
                   ,
-                  <a href={href} target="_blank" rel="noreferrer">
-                    <button className="px-4 py-3 font-bold duration-200 hover:scale-105 text-lime-900">
+                  <a
+                    href={href}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="py-2"
+                  >
+                    <button className="px-4 py-3 font-bold duration-200 rounded-md hover:scale-105 text-lime-900 bg-slate-100">
                       View
                     </button>
                   </a>
