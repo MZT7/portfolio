@@ -10,10 +10,10 @@ const About = () => {
 
         <div className="">
           <p className="mt-5 text-2xl">
-            I'm Mezu, I love building creative and dynamic web applications from
-            start to finish, For start-up and small to enterprise level
-            businesses and companies. I also love building web applications to
-            make live easier for people.
+            I'm Orizu Duziem ChijeMEZU, I love building creative and dynamic web
+            applications from start to finish, For start-up and small to
+            enterprise level businesses and companies. I also love building web
+            applications to make live easier for people.
           </p>
           <br />
           <p className="text-xl">

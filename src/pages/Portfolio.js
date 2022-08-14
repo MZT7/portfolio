@@ -35,7 +35,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <section name="Portfolio" className="w-full h-full py-8">
+    <section name="Portfolio" className="w-full h-full py-8" id="Portfolio">
       <div className="container flex flex-col justify-end w-full h-full min-h-screen px-4 mx-auto lg:h-screen">
         <h1 className="inline text-4xl font-bold underline underline-offset-4 decoration-4 decoration-gray-50">
           Portfolio

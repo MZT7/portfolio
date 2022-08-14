@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <section className="h-screen py-8 pt-20 lg:pt-0" name="Home">
       <div className="container flex flex-col items-center justify-center h-full px-4 py-5 mx-auto md:flex-row">
-        <div className="flex flex-col justify-center h-full">
+        <div className="flex flex-col justify-center items-center md:items-start h-full">
           <h1 className="text-3xl font-bold md:text-6xl">
             I'm a Fullstack Developer
           </h1>
@@ -18,9 +18,9 @@ const Home = () => {
             working on web application using technologies like: React, Laravel,
             Tailwindcss, Alpinejs and Livewire.
           </p>
-          <div>
+          <div className="group">
             <Link to="Portfolio" smooth={true} duration={500} offset={-100}>
-              <button className="flex items-center p-2 px-3 rounded-md cursor-pointer group bg-gradient-to-b from-cyan-200 to-blue-400">
+              <button className="flex items-center p-2 px-3 rounded-md cursor-pointer bg-gradient-to-b from-cyan-200 to-blue-400">
                 Portfolio
                 <span className="ml-1 duration-500 group-hover:rotate-90">
                   <FaAngleRight />

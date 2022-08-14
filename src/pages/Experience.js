@@ -23,6 +23,7 @@ const Experience = () => {
       ),
       style: "shadow-orange-600",
       title: "Html",
+      href: "https://html.com/",
     },
     {
       icon: (
@@ -35,6 +36,7 @@ const Experience = () => {
       ),
       style: "shadow-blue-500",
       title: "Css",
+      href: "https://www.w3.org/Style/CSS/Overview.en.html",
     },
     {
       icon: (
@@ -47,6 +49,7 @@ const Experience = () => {
       ),
       style: "shadow-yellow-500",
       title: "Javascript",
+      href: "https://www.javascript.com/",
     },
     {
       icon: (
@@ -59,6 +62,7 @@ const Experience = () => {
       ),
       style: "shadow-sky-800",
       title: "Php",
+      href: "https://www.php.net/",
     },
     {
       icon: (
@@ -71,6 +75,7 @@ const Experience = () => {
       ),
       style: "shadow-cyan-600",
       title: "React",
+      href: "https://reactjs.org/",
     },
     {
       icon: (
@@ -83,6 +88,7 @@ const Experience = () => {
       ),
       style: "shadow-red-500",
       title: "Laravel",
+      href: "https://laravel.com/",
     },
     {
       icon: (
@@ -95,6 +101,7 @@ const Experience = () => {
       ),
       style: "shadow-violet-700",
       title: "Bootstrap",
+      href: "https://getbootstrap.com/",
     },
     {
       icon: (
@@ -107,6 +114,7 @@ const Experience = () => {
       ),
       style: "shadow-sky-500",
       title: "TailwindCss",
+      href: "https://tailwindcss.com/",
     },
     {
       icon: (
@@ -119,6 +127,7 @@ const Experience = () => {
       ),
       style: "shadow-slate-800",
       title: "AlpineJs",
+      href: "https://alpinejs.dev/",
     },
   ];
 
@@ -133,15 +142,18 @@ const Experience = () => {
         </p>
 
         <div className="grid w-full grid-cols-2 gap-4 px-0 py-4 text-center sm:px-12 sm:gap-8 sm:grid-cols-3">
-          {experience.map(({ style, title, icon }, index) => {
+          {experience.map(({ style, title, icon, href }, index) => {
             return (
-              <div
+              <a
+                href={href}
                 key={index}
+                target="_blank"
+                rel="noreferrer"
                 className={`max-w-xs py-2 rounded-lg shadow-md ${style}`}
               >
                 {icon}
                 <p className="mt-4 ">{title}</p>
-              </div>
+              </a>
             );
           })}
         </div>
