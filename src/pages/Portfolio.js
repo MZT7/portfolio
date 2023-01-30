@@ -26,7 +26,7 @@ const Portfolio = () => {
     },
     {
       src: dev4,
-      href: "https://mezu.herokuapp.com/",
+      href: "https://oristouniversal.com/",
     },
     {
       src: dev5,
@@ -48,6 +48,7 @@ const Portfolio = () => {
               <div
                 key={index}
                 className="overflow-hidden rounded-lg shadow-md shadow-gray-600"
+                data-aos="zoom-out"
               >
                 <div className="overflow-hidden h-60">
                   <img

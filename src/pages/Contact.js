@@ -13,6 +13,7 @@ const Contact = () => {
           className="flex flex-col justify-center w-full mx-auto md:w-2/6"
           method="POST"
           action="https://getform.io/f/362a0113-4396-485b-84db-fc43462dc8bf"
+          data-aos="flip-left"
         >
           <input
             type="text"

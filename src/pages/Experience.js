@@ -146,6 +146,7 @@ const Experience = () => {
             return (
               <a
                 href={href}
+                data-aos="zoom-out"
                 key={index}
                 target="_blank"
                 rel="noreferrer"

@@ -9,7 +9,10 @@ const Home = () => {
   return (
     <section className="h-screen py-8 pt-20 lg:pt-0" name="Home">
       <div className="container flex flex-col items-center justify-center h-full px-4 py-5 mx-auto md:flex-row">
-        <div className="flex flex-col justify-center items-center md:items-start h-full">
+        <div
+          className="flex flex-col items-center justify-center h-full md:items-start"
+          data-aos="fade-right"
+        >
           <h1 className="text-3xl font-bold md:text-6xl">
             I'm a Fullstack Developer
           </h1>
@@ -29,7 +32,10 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="w-1/2 duration-300 cursor-pointer h-2/3 pt-7 lg:pt-0 hover:translate-x-10">
+        <div
+          className="w-1/2 duration-300 cursor-pointer h-2/3 pt-7 lg:pt-0 hover:translate-x-10"
+          data-aos="fade-left"
+        >
           <img
             src={mezu}
             alt=""

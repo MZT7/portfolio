@@ -3,7 +3,10 @@ import React from "react";
 const About = () => {
   return (
     <section className="w-full h-full py-8" name="About">
-      <div className="container flex flex-col justify-center w-full min-h-screen px-6 mx-auto lg:h-screen">
+      <div
+        className="container flex flex-col justify-center w-full min-h-screen px-6 mx-auto lg:h-screen"
+        data-aos="fade-down-left"
+      >
         <h1 className="inline text-4xl font-bold underline underline-offset-4 decoration-4 decoration-gray-50">
           About
         </h1>
