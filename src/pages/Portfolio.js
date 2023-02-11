@@ -10,19 +10,19 @@ const Portfolio = () => {
   const portfolio = [
     {
       src: mezu,
-      href: "https://delifast.herokuapp.com/",
+      href: "https://www.precisepolls.org/poll/27",
     },
     {
       src: dev1,
-      href: "https://e-sho.herokuapp.com/",
+      href: "https://precisetracker.com",
     },
     {
       src: dev2,
-      href: "https://moadvice.herokuapp.com/",
+      href: "https://opiofiber.com.ng/",
     },
     {
       src: dev3,
-      href: "https://opio.herokuapp.com/",
+      href: "https://precise.com.ng/",
     },
     {
       src: dev4,
