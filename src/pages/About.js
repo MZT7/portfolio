@@ -5,13 +5,13 @@ const About = () => {
     <section className="w-full h-full py-8" name="About">
       <div
         className="container flex flex-col justify-center w-full min-h-screen px-6 mx-auto lg:h-screen"
-        data-aos="fade-down-left"
+        // data-aos="fade-down-left"
       >
         <h1 className="inline text-4xl font-bold underline underline-offset-4 decoration-4 decoration-gray-50">
           About
         </h1>
 
-        <div className="">
+        <div className="" data-aos="fade-down-left">
           <p className="mt-5 text-2xl">
             I'm Orizu Duziem ChijeMEZU, I love building creative and dynamic web
             applications from start to finish, For start-up and small to
