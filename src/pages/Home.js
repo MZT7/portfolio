@@ -14,10 +14,10 @@ const Home = () => {
           data-aos="fade-right"
         >
           <h1 className="text-3xl font-bold md:text-6xl">
-            I'm a Fullstack Developer
+            I'm a Software Developer
           </h1>
           <p className="max-w-md py-4">
-            I have 3 years experience in building and designing software. I love
+            I have 4 years experience in building and designing software. I love
             working on web application using technologies like: React, Laravel,
             Tailwindcss, Alpinejs and Livewire.
           </p>
