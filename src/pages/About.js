@@ -13,10 +13,11 @@ const About = () => {
 
         <div className="" data-aos="fade-down-left">
           <p className="mt-5 text-2xl">
-            I'm Orizu Duziem ChijeMEZU, I love building creative and dynamic web
-            applications from start to finish, For start-up and small to
-            enterprise level businesses and companies. I also love building web
-            applications to make live easier for people.
+            I am a Software developer with 4+ years of experience building
+            websites and web applications. I have professional experience
+            working with Laravel and ReactJs. I also have experience developing
+            range of web applications for start-up and small to enterprise level
+            web applications.
           </p>
           <br />
           <p className="text-xl">

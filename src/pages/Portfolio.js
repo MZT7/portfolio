@@ -74,6 +74,8 @@ const Portfolio = () => {
           })}
         </div>
       </div>
+
+      <div className="shadow-md"></div>
     </section>
   );
 };
