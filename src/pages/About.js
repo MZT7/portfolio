@@ -27,7 +27,7 @@ const About = () => {
             <br />✔ Frameworks like Laravel, React.js
             <br /> ✔ eCommerce: Laravel Ecommerce
             <br /> ✔ JavaScript, jQuery, Alpinejs
-            <br /> ✔ Databases design, programming and optimization <br />✔
+            <br /> ✔ Databases design, programming and code optimization <br />✔
             PHP8, MySQL5, HTML5, Laravel Livewire and UI integration
             <br /> ✔ Code versioning using Git ✔ Payment gateway
             integration(Paystack , Stripe, PayPal)
